@@ -9,18 +9,34 @@
 /* Begin PBXBuildFile section */
 		B96F5FE42975F18C00715F5D /* EarnTheRightJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F5FE32975F18C00715F5D /* EarnTheRightJournalApp.swift */; };
 		B96F5FE62975F18C00715F5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F5FE52975F18C00715F5D /* ContentView.swift */; };
-		B96F5FE82975F18C00715F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96F5FE72975F18C00715F5D /* Assets.xcassets */; };
 		B96F5FEB2975F18C00715F5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96F5FEA2975F18C00715F5D /* Preview Assets.xcassets */; };
 		B96F603329770FCF00715F5D /* calloutData.json in Resources */ = {isa = PBXBuildFile; fileRef = B96F603229770FCF00715F5D /* calloutData.json */; };
+		B96F6035297731E300715F5D /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F6034297731E300715F5D /* Chapter.swift */; };
+		B96F60372977331300715F5D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F60362977331300715F5D /* ModelData.swift */; };
+		B96F6039297738F300715F5D /* ChapterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F6038297738F300715F5D /* ChapterDetail.swift */; };
+		B96F603C29773E7F00715F5D /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F603B29773E7F00715F5D /* Drop.swift */; };
+		B96F603F29773F2100715F5D /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = B96F603D29773F2100715F5D /* AppIcon.appiconset */; };
+		B96F604029773F2100715F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96F603E29773F2100715F5D /* Assets.xcassets */; };
+		B96F60422977541A00715F5D /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F60412977541A00715F5D /* JournalEntry.swift */; };
+		B96F604529775B5C00715F5D /* ChapterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F604429775B5C00715F5D /* ChapterRow.swift */; };
+		B96F604729775D1700715F5D /* ChapterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F604629775D1700715F5D /* ChapterList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B96F5FE02975F18C00715F5D /* EarnTheRightJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarnTheRightJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96F5FE32975F18C00715F5D /* EarnTheRightJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnTheRightJournalApp.swift; sourceTree = "<group>"; };
 		B96F5FE52975F18C00715F5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B96F5FE72975F18C00715F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96F5FEA2975F18C00715F5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B96F603229770FCF00715F5D /* calloutData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = calloutData.json; sourceTree = "<group>"; };
+		B96F6034297731E300715F5D /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		B96F60362977331300715F5D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		B96F6038297738F300715F5D /* ChapterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDetail.swift; sourceTree = "<group>"; };
+		B96F603B29773E7F00715F5D /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
+		B96F603D29773F2100715F5D /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		B96F603E29773F2100715F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B96F60412977541A00715F5D /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		B96F604429775B5C00715F5D /* ChapterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterRow.swift; sourceTree = "<group>"; };
+		B96F604629775D1700715F5D /* ChapterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,9 @@
 		B96F5FD72975F18C00715F5D = {
 			isa = PBXGroup;
 			children = (
+				B96F603D29773F2100715F5D /* AppIcon.appiconset */,
+				B96F603E29773F2100715F5D /* Assets.xcassets */,
+				B96F5FEA2975F18C00715F5D /* Preview Assets.xcassets */,
 				B96F5FE22975F18C00715F5D /* EarnTheRightJournal */,
 				B96F5FE12975F18C00715F5D /* Products */,
 			);
@@ -57,7 +76,6 @@
 				B96F5FE32975F18C00715F5D /* EarnTheRightJournalApp.swift */,
 				B96F603029770F8100715F5D /* Models */,
 				B96F602F29770F7200715F5D /* Views */,
-				B96F5FE72975F18C00715F5D /* Assets.xcassets */,
 				B96F5FE92975F18C00715F5D /* Preview Content */,
 			);
 			path = EarnTheRightJournal;
@@ -66,7 +84,6 @@
 		B96F5FE92975F18C00715F5D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B96F5FEA2975F18C00715F5D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -75,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				B96F5FE52975F18C00715F5D /* ContentView.swift */,
+				B96F6043297758DD00715F5D /* Chapters */,
+				B96F603A29773E7000715F5D /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,6 +101,8 @@
 		B96F603029770F8100715F5D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B96F6034297731E300715F5D /* Chapter.swift */,
+				B96F60362977331300715F5D /* ModelData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -92,6 +113,25 @@
 				B96F603229770FCF00715F5D /* calloutData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B96F603A29773E7000715F5D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B96F603B29773E7F00715F5D /* Drop.swift */,
+				B96F60412977541A00715F5D /* JournalEntry.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B96F6043297758DD00715F5D /* Chapters */ = {
+			isa = PBXGroup;
+			children = (
+				B96F6038297738F300715F5D /* ChapterDetail.swift */,
+				B96F604429775B5C00715F5D /* ChapterRow.swift */,
+				B96F604629775D1700715F5D /* ChapterList.swift */,
+			);
+			path = Chapters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96F603329770FCF00715F5D /* calloutData.json in Resources */,
+				B96F603F29773F2100715F5D /* AppIcon.appiconset in Resources */,
+				B96F604029773F2100715F5D /* Assets.xcassets in Resources */,
 				B96F5FEB2975F18C00715F5D /* Preview Assets.xcassets in Resources */,
-				B96F5FE82975F18C00715F5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96F6035297731E300715F5D /* Chapter.swift in Sources */,
+				B96F60372977331300715F5D /* ModelData.swift in Sources */,
+				B96F604529775B5C00715F5D /* ChapterRow.swift in Sources */,
+				B96F603C29773E7F00715F5D /* Drop.swift in Sources */,
+				B96F604729775D1700715F5D /* ChapterList.swift in Sources */,
 				B96F5FE62975F18C00715F5D /* ContentView.swift in Sources */,
 				B96F5FE42975F18C00715F5D /* EarnTheRightJournalApp.swift in Sources */,
+				B96F60422977541A00715F5D /* JournalEntry.swift in Sources */,
+				B96F6039297738F300715F5D /* ChapterDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
