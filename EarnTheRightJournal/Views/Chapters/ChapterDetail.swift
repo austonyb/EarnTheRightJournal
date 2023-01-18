@@ -40,31 +40,37 @@ struct ChapterDetail: View {
                 
             }
             VStack (alignment: .leading) {
-                //This will be a placeholder for the journal text entered into the app. There will be a modal screen that pops up for the user to enter in their response to the callout questions above. For now, it is just a text field.
-//                Text(modelData.chapters[chapterIndex].journal)
-                JournalEntry(journal: $modelData.chapters[chapterIndex].journal)
+                //links to new journal view to enter in text.
+                NavigationLink {
+                    ChapterJournal(journal: $modelData.chapters[chapterIndex].journal)
+                } label: {
+                    Text("Edit Journal Entry")
+                        .font(.title3)
+                        .foregroundColor(.secondary)
+                }
+                //Text from the journal entry will be displayed here:
+                Text(modelData.chapters[chapterIndex].journal)
             }
             .padding()
-            .background(Color.accentColor)
         }
         
-        .fullBackground(imageName: "blueWater")
+        //.fullBackground(imageName: "blueWater")
 
     }
 }
 
-public extension View {
-    func fullBackground(imageName: String) -> some View {
-       return background(
-                Image(imageName)
-                    .resizable()
-                    .scaledToFill()
-                    .edgesIgnoringSafeArea(.all)
-                    .opacity(0.2)
-                    .frame(height: 500)
-       )
-    }
-}
+//public extension View {
+//    func fullBackground(imageName: String) -> some View {
+//       return background(
+//                Image(imageName)
+//                    .resizable()
+//                    .scaledToFill()
+//                    .edgesIgnoringSafeArea(.all)
+//                    .opacity(0.2)
+//                    .frame(height: 500)
+//       )
+//    }
+//}
 
 //MARK: - Preview Code
 struct ChapterDetail_Previews: PreviewProvider {

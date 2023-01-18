@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct ChapterJournal: View {
+    @EnvironmentObject var modelData: ModelData
+    @Binding var journal: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            TextEditor(text: $journal)
+                .padding(.horizontal)
+                .navigationTitle("Journal Entry")
+        }
     }
 }
 
 struct ChapterJournal_Previews: PreviewProvider {
     static var previews: some View {
-        ChapterJournal()
+        let modelData = ModelData()
+        
+        ChapterJournal(journal: .constant("lorem ipsum"))
+            .environmentObject(modelData)
     }
 }
