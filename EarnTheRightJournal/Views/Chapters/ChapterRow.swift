@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ChapterRow: View {
+    
     var chapter: Chapter
     
     var body: some View {

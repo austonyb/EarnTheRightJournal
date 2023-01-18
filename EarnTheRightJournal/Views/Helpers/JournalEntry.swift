@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct JournalEntry: View {
+    @EnvironmentObject var modelData: ModelData
     @Binding var journal: String
+    
     
     var body: some View {
         TextField(journal, text: $journal)

@@ -20,6 +20,7 @@
 		B96F60422977541A00715F5D /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F60412977541A00715F5D /* JournalEntry.swift */; };
 		B96F604529775B5C00715F5D /* ChapterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F604429775B5C00715F5D /* ChapterRow.swift */; };
 		B96F604729775D1700715F5D /* ChapterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F604629775D1700715F5D /* ChapterList.swift */; };
+		B96F60492977694B00715F5D /* ChapterJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F60482977694B00715F5D /* ChapterJournal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		B96F60412977541A00715F5D /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 		B96F604429775B5C00715F5D /* ChapterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterRow.swift; sourceTree = "<group>"; };
 		B96F604629775D1700715F5D /* ChapterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterList.swift; sourceTree = "<group>"; };
+		B96F60482977694B00715F5D /* ChapterJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterJournal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				B96F6038297738F300715F5D /* ChapterDetail.swift */,
 				B96F604429775B5C00715F5D /* ChapterRow.swift */,
 				B96F604629775D1700715F5D /* ChapterList.swift */,
+				B96F60482977694B00715F5D /* ChapterJournal.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96F6035297731E300715F5D /* Chapter.swift in Sources */,
+				B96F60492977694B00715F5D /* ChapterJournal.swift in Sources */,
 				B96F60372977331300715F5D /* ModelData.swift in Sources */,
 				B96F604529775B5C00715F5D /* ChapterRow.swift in Sources */,
 				B96F603C29773E7F00715F5D /* Drop.swift in Sources */,

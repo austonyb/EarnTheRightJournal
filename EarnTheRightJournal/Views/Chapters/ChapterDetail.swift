@@ -7,6 +7,19 @@
 
 import SwiftUI
 
+public extension View {
+    func fullBackground(imageName: String) -> some View {
+       return background(
+                Image(imageName)
+                    .resizable()
+                    .scaledToFill()
+                    .edgesIgnoringSafeArea(.all)
+                    .opacity(0.3)
+                    .frame(height: 600)
+       )
+    }
+}
+
 struct ChapterDetail: View {
     @EnvironmentObject var modelData: ModelData
     var chapter: Chapter
@@ -45,6 +58,8 @@ struct ChapterDetail: View {
             .background(Color.accentColor)
         }
         
+        .fullBackground(imageName: "blueWater")
+
     }
 }
 
