@@ -18,7 +18,7 @@ struct ChapterRow: View {
         
             Spacer()
             
-            Text(chapter.header)
+            Text(chapter.header.lowercased())
                 .lineLimit(1)
         }
         .padding()

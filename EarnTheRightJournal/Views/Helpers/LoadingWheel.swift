@@ -13,11 +13,15 @@ struct LoadingWheel: View {
     var body: some View {
         VStack {
             Spacer()
-            Image("loading")
+            Image("loadingBlue")
+                .overlay {
+                    Circle().stroke(.blue, lineWidth: 10)
+                }
+                .shadow(radius: 7)
                 .rotationEffect(.degrees(rotation))
                 .animation(Animation.linear(duration: 1).repeatForever(autoreverses: true))
                 .onAppear() {
-                    self.rotation = 360
+                    self.rotation = 720
                 }
             Spacer()
         }

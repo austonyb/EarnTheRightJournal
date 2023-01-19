@@ -25,15 +25,18 @@ struct ChapterDetail: View {
             ScrollView {
                 VStack() {
                     Drop()
+                    
                     Text("Chapter \(chapter.id)")
                         .font(.largeTitle)
                         .padding()
-                    
-                    Text("Callouts:")
-                        .font(.title2)
-                    
+                    Text(chapter.header.uppercased())
+                        .font(.title3)
+                        .padding()
                     
                     VStack(alignment: .leading, spacing: 12){
+                        Text("Callouts:")
+                            .font(.title2)
+                        
                         ForEach(chapter.callouts, id: \.self) { callout in
                             Text("• \(callout)")
                         }
@@ -54,7 +57,8 @@ struct ChapterDetail: View {
                 }
                 
                 VStack (alignment: .leading) {
-                    
+                    Text("Journal:")
+                        .font(.title3)
                     TextField("Enter your journal here", text: $viewModel.journalEntries[chapterIndex].entry)
                     
                 }

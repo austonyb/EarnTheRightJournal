@@ -23,7 +23,7 @@ extension ChapterDetail {
                 print("Error decoding json data into journal entries: \(error) -- \(error.localizedDescription)")
                 
                 journalEntries = [
-                    JournalEntry(id: 1, entry: "lkjlkjlkjlj"),
+                    JournalEntry(id: 1, entry: ""),
                     JournalEntry(id: 2, entry: ""),
                     JournalEntry(id: 3, entry: ""),
                     JournalEntry(id: 4, entry: ""),
