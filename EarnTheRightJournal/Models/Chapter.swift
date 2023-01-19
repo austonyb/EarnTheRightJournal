@@ -11,5 +11,4 @@ struct Chapter: Hashable, Codable, Identifiable {
     var id: Int
     var header: String
     var callouts: [String]
-    var journal: String
 }
