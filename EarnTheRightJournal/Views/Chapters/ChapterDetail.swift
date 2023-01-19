@@ -42,7 +42,7 @@ struct ChapterDetail: View {
                     
                 }
                 .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
+                    ToolbarItem(placement: .bottomBar) {
                         Button {
                             viewModel.save()
                             let _ = print("save button was tapped")
@@ -55,12 +55,10 @@ struct ChapterDetail: View {
                 
                 VStack (alignment: .leading) {
                     
-                    TextField("Enter your name", text: $viewModel.journalEntries[0].entry)
-                    TextEditor(text: $viewModel.journalEntries[0].entry)
-                        .padding(.horizontal)
-                        .onTapGesture {}
+                    TextField("Enter your journal here", text: $viewModel.journalEntries[chapterIndex].entry)
                     
                 }
+                .padding()
                 
             }
         }

@@ -29,7 +29,7 @@ struct Welcome: View {
                                 .padding()
                             Text(quote)
                             LoadingWheel()
-                                .transition(.scale)
+                                .transition(.slide)
                         }
                     }
                     if showNextView {
@@ -60,7 +60,7 @@ struct Welcome: View {
                     self.quote = quote?.text ?? ""
                     self.isLoading = false
                     // show next view after 3 sec
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
                         self.showNextView.toggle()
                     }
                 }

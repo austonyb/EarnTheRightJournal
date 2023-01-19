@@ -11,19 +11,22 @@ struct ChapterList: View {
     @EnvironmentObject var modelData: ModelData
     
     var body: some View {
-        NavigationStack {
-            List {
-                ForEach(chapters) { chapter in
-                    NavigationLink {
-                        ChapterDetail(chapter: chapter)
-                    } label: {
-                        ChapterRow(chapter: chapter)
+        NavigationView() {
+            NavigationStack {
+                List {
+                    ForEach(chapters) { chapter in
+                        NavigationLink {
+                            ChapterDetail(chapter: chapter)
+                        } label: {
+                            ChapterRow(chapter: chapter)
+                        }
+                        
                     }
-                    
+                    .navigationTitle("Chapters")
                 }
-                .navigationTitle("Chapters")
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
