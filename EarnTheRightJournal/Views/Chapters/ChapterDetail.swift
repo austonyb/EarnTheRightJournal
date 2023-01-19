@@ -11,6 +11,7 @@ struct ChapterDetail: View {
     
     @EnvironmentObject var modelData: ModelData
     var chapter: Chapter
+    @Binding var journal: String
     
     var chapterIndex: Int {
         modelData.chapters.firstIndex(where: { $0.id == chapter.id})!
@@ -49,9 +50,15 @@ struct ChapterDetail: View {
                         .foregroundColor(.secondary)
                 }
                 //Text from the journal entry will be displayed here:
-                Text(modelData.chapters[chapterIndex].journal)
+//                Text(modelData.chapters[chapterIndex].journal)
             }
             .padding()
+            NavigationStack {
+                TextEditor(text: $journal)
+                    .padding(.horizontal)
+                    .navigationTitle("Journal Entry")
+                    .onTapGesture {}
+            }
         }
         
         //.fullBackground(imageName: "blueWater")
@@ -77,7 +84,7 @@ struct ChapterDetail_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        ChapterDetail(chapter: modelData.chapters[0])
+        ChapterDetail(chapter: modelData.chapters[0], journal: .constant("journalText"))
             .environmentObject(modelData)
     }
 }

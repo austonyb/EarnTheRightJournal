@@ -13,7 +13,6 @@ struct ContentView: View {
             ChapterList()
                 .environmentObject(ModelData())
         }
-        .padding()
     }
 }
 

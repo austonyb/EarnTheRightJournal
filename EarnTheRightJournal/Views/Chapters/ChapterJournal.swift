@@ -16,6 +16,7 @@ struct ChapterJournal: View {
             TextEditor(text: $journal)
                 .padding(.horizontal)
                 .navigationTitle("Journal Entry")
+                .onTapGesture {}
         }
     }
 }
