@@ -10,9 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-//            ChapterList()
-//                .environmentObject(ModelData())
-            Welcome()
+            ChapterList()
+                .environmentObject(ModelData())
+//            Welcome()
         }
     }
 }
