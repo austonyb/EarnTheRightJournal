@@ -13,12 +13,12 @@ struct ChapterRow: View {
     
     var body: some View {
         HStack {
-            Text("Chapter \(chapter.id)")
+            Text("SECTION \(chapter.id)")
                 .fontDesign(.rounded)
         
             Spacer()
             
-            Text(chapter.header.lowercased())
+            Text(chapter.header)
                 .lineLimit(1)
         }
         .padding()

@@ -1,0 +1,320 @@
+[
+    {
+        "id": 1,
+        "header": "Vision",
+        "callouts": [
+            "Define your vision. Make a list of your goals that will enable you to reach your ultimate goal or vision. Be specific.",
+            "Identify who and what others can become through your vision.",
+            "Share your vision with your trusted mentors, cohorts, employees, and friends. Help others understand their role in your vision.",
+            "Ensure that your vision is sharable and trackable. The most effective way to share and track your vision is to write it down and set specific goals that will enable you to measure the progress."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 2,
+        "header": "SEEING CLEARLY",
+        "callouts": [
+            "Share your vision with your trusted mentors, cohorts, employees, and friends. Help others understand their role in your vision.",
+            "Ensure that your vision is sharable and trackable. The most effective way to share and track your vision is to write it down and set specific goals that will enable you to measure the progress.",
+            "What do you see in your business or work relationships that you wish to improve?",
+            "Is what you see clearly understood? Think about your answer and write it in your journal.",
+            "How will you choose to see differently? What events, processes, or action can you take that will enable you and others in your relationships to see things anew?"
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 3,
+        "header": "GIVING SERVICE",
+        "callouts": [
+            "Recognize service opportunities. Make a list of small acts of service that you can perform on a regular basis.",
+            "Serve."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 4,
+        "header": "LISTENING",
+        "callouts": [
+            "Assess your listening skills.",
+            "Ask others about your listening skills, actually listen to their feedback.",
+            "Pay attention to what others are saying to you. Write down some ways how you can be more mindful about listening to others."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 5,
+        "header": "BE GENUINELY AUTHENTIC",
+        "callouts": [
+            "Assess your personal authenticity. Are you genuine with others? Discuss your findings with a trusted mentor or friend.",
+            "Ask yourself: “What do I want from this relationship?” and “What am I willing to give?"
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 6,
+        "header": "COMMUNICATE EFFECTIVELY",
+        "callouts": [
+            "Assess your personal communication.",
+            "Ask others to assess your communication skills, and be willing to accept constructive criticism. Record your experience doing this in your journal.",
+            "Challenge yourself to communicate in a way that stretches you. (i.e. If you prefer texting, call someone, if you prefer phone conversations, speak to others in-person, etc.)",
+            "Start a conversation with someone new.",
+            "Seek opportunities to communicate with others."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 7,
+        "header": "TEACH OTHERS HOW TO TREAT YOU",
+        "callouts": [
+            "How do others treat you?",
+            "How do you treat others?",
+            "Treat others how you desire to be treated."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 8,
+        "header": "BE FLEXIBLE",
+        "callouts": [
+            "Be introspective and assess how flexible you are.",
+            "Are you capable of changing course when things don’t go as planned?",
+            "Ask your friends and family how well you adapt to changing circumstances. What did they say?",
+            "Plan to be flexible and adapt accordingly without losing enthusiasm."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 9,
+        "header": "IDENTIFY AND EMBRACE SUCCESS",
+        "callouts": [
+            "Are there some aspects of success that frighten you?",
+            "Are there some risks that would be worth taking to achieve your goal?",
+            "Define what success means to you.",
+            "Identify successes that you admire in others.",
+            "Pinpoint actions that you will need to take to achieve success."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 10,
+        "header": "OBSERVING",
+        "callouts": [
+            "Seek out great mentors who can help you grow. Write out a list of potential mentors that you could reach out to.",
+            "Write down your observations with specific traits you wish to emulate.",
+            "Eliminate traits that do not benefit you. Make a list and work towards eliminating them."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 11,
+        "header": "HAVE ENTHUSIASTIC DILIGENCE",
+        "callouts": [
+            "Write down a list of three personal or business pursuits that get you excited.",
+            "What goals pertain to your list of pursuits?",
+            "How could your enthusiasm drive you to accomplish these goals?",
+            "How will you share your enthusiasm for these pursuits with others?",
+            "Be enthusiastic as you engage in these activities."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 12,
+        "header": "ELIMINATE WORRY",
+        "callouts": [
+            "Take an inventory of your current worries by writing them down.",
+            "Eliminate those that are perceived, hypothetical, or out of your control.",
+            "Make an action plan for those worries that are in your control. An example of this is worrying about that presentation coming up. If this is your worry, then complete the presentation, practice, and be prepared to present—thus eliminating the worry.",
+            "Move on to more productive things—by taking action and managing what you can control."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 13,
+        "header": "RECOGNIZE THAT YOU ARE NOT SPECIAL",
+        "callouts": [
+            "Be introspective.",
+            "Take a genuine assessment of your relationships with others, and ask yourself if you spend more time focused on your perceived superiority than the recognition of others traits, talents and abilities.",
+            "Pay special attention to your relationships with others and take assessment of the traits that you admire in them.",
+            "Keep a gratitude journal of the things that you appreciate in others, as well as in your own life.",
+            "Treat others as your equals."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 14,
+        "header": "WILLINGNESS TO WORK",
+        "callouts": [
+            "Reflect deeply on your commitment level to work.",
+            "Are you willing to work? If the answer is no, what is it about work that deters you?",
+            "What satisfaction do you glean from your work? Make a list.",
+            "Be willing to spend time on those items that will bring satisfaction.",
+            "Make an action plan for work and follow it through."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 15,
+        "header": "BE PUNCTUAL",
+        "callouts": [
+            "Is being punctual a priority in your relationships?",
+            "Assess yourself and make a plan for being on time.",
+            "Eliminate distractions or impediments that might prevent you from being punctual."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 16,
+        "header": "EXUDE CONFIDENCE",
+        "callouts": [
+            "Write down your talents.",
+            "Assess your talents, and focus on them. This will help you gain the confidence necessary to build more impactful relationships.",
+            "What talents do you see in others that you desire to have yourself? List them and write out a plan to develop them.",
+            "Be specific in your goal setting, as you seek to improve your talents.",
+            "Be introspective and recognize where your confidence is lacking, as well as where you’ve seen growth."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 17,
+        "header": "BEING KIND",
+        "callouts": [
+            "Identify examples of kindness shown to you and record them daily in a journal.",
+            "Make a list of small acts of kindness that you can perform for others.",
+            "Look for opportunities to show kindness to others on a daily basis."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 18,
+        "header": "REAL EXPERIENCE",
+        "callouts": [
+            "Introspectively address your experience. Is your experience limiting or enabling?",
+            "Write down an experience that has helped define your business (or personal) relationships. What have you learned from this experience? What would you change?",
+            "What will you do differently in the future to ensure that you are growing from your experiences?"
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 19,
+        "header": "FOCUS",
+        "callouts": [
+            "Think of a particular relationship that you are trying to develop. Where is your focus in this relationship?",
+            "Could your relationship be strengthened by shifting your focus?"
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 20,
+        "header": "BE A PARTNER",
+        "callouts": [
+            "What is the status of your current relationship building?",
+            "Reflect on your current relationships. Do you feel that you are a contributing partner in those relationships?",
+            "Are you committed to these relationships, and willing to compromise for the greater good, in order to strengthen your relationships?"
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 21,
+        "header": "ASKING",
+        "callouts": [
+            "Think of your current business relationships. Make a list of questions that you wish to ask.",
+            "Identify how asking questions will strengthen your current relationships. Be specific by writing down your thoughts.",
+            "Practice asking questions each and every day."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 22,
+        "header": "ENCOURAGE OTHERS",
+        "callouts": [
+            "Make a list of people who inspire you through their encouragement of others.",
+            "How do they do it? How can you learn from these examples and incorporate them into building your relationships with others?",
+            "Identify ways to encourage others.",
+            "Work daily to encourage others."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 23,
+        "header": "BE TRUTHFUL",
+        "callouts": [
+            "Reflect on a time when your truthfulness or lack thereof impacted a relationship.",
+            "Be truthful."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 24,
+        "header": "MAKE GOOD DECISIONS",
+        "callouts": [
+            "Identify important decisions that are pressing upon you today.",
+            "Determine possible outcomes by using the if/then process.",
+            "Although the DDSS acronym is intrinsically humorous, the outcomes are real.",
+            "How will you use this example in your own life to make better decisions?"
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 25,
+        "header": "RECOGNIZE THE SUCCESS OF OTHERS",
+        "callouts": [
+            "Identify individuals who have contributed to your success. Make a plan to thank them for their contributions.",
+            "Look for opportunities to recognize others in small successes each and every day.",
+            "Repeat."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 26,
+        "header": "ACCEPT RISK",
+        "callouts": [
+            "What risks can you identify in your business relationships?",
+            "As you consider the list of risks that you’ve identified, do you notice any patterns? If so, then start with these first.",
+            "Set goals that will help you mitigate these risks. What are the benefits of achieving these goals? Write them down.",
+            "Maintain a list of accomplished goals that presented themselves with considerable risk. This will give you courage as you continue forward in setting new goals and developing new relationships."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 27,
+        "header": "BEING READY",
+        "callouts": [
+            "In your current relationship development, how can “Go” be implemented? Write down a list of 'Go' Items",
+            "Develop a plan to be ready to act, as your business relationships will require."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 28,
+        "header": "GAINING KNOWLEDGE",
+        "callouts": [
+            "What would you like to learn?",
+            "Are there educational pursuits that you have thought to go after, but have not?",
+            "Decide today what steps you will take to pursue these learning goals. Start with one at a time.",
+            "Seek out mentors from existing relationships who might be able to help you with your educational goals. ",
+            "Don’t be afraid to ask people who you don’t know today to help you. This is a great way to build new relationships."
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 29,
+        "header": "SAYING WHAT YOU DO AND DOING WHAT YOU SAY",
+        "callouts": [
+            "Do you do what you say you will do? How has this helped you build great relationships?",
+            "Identify current commitments. How will you follow through on these commitments?",
+            "Make a list of relationships that depend on you. What do you do on a regular basis that shows how you will earn the right to have stronger relationships?"
+        ],
+        "journal": "Please write your responses here."
+    },
+    {
+        "id": 30,
+        "header": "TRUSTING YOUR INSTINCTS",
+        "callouts": [
+            "Identify personal experiences where you have followed your instincts. Write down what you have learned from these experiences.",
+            "Do you give others the opportunity to act on their instincts? This is important because oftentimes we fail to trust the instincts of others, while expecting them to trust our instincts. Earning the right to our relationships is a reciprocal process.",
+            "How can you learn from past mistakes (where you didn’t trust those instinctive feelings), in order to trust yourself and others in future situations?"
+        ],
+        "journal": "Please write your responses here."
+    }
+]
+

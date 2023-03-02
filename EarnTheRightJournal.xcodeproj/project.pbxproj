@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92BBA8B29ADB9690034C833 /* callOutData2.json in Resources */ = {isa = PBXBuildFile; fileRef = B92BBA8A29ADB9690034C833 /* callOutData2.json */; };
+		B92BBA8D29ADB98D0034C833 /* CalloutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92BBA8C29ADB98D0034C833 /* CalloutModel.swift */; };
+		B92CC6F929B0350D00B04945 /* LoopingPlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92CC6F829B0350D00B04945 /* LoopingPlayerUIView.swift */; };
+		B92CC6FB29B03CF700B04945 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92CC6FA29B03CF700B04945 /* PlayerView.swift */; };
+		B92CC6FD29B03D1E00B04945 /* BgdFullScreenVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92CC6FC29B03D1E00B04945 /* BgdFullScreenVideoView.swift */; };
+		B92CC70129B03DBC00B04945 /* backgroundLoop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B92CC70029B03DBC00B04945 /* backgroundLoop.mp4 */; };
+		B92CC70329B03E1200B04945 /* OpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92CC70229B03E1200B04945 /* OpeningScreen.swift */; };
+		B92CC70529B0416A00B04945 /* SpinningGradientBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92CC70429B0416A00B04945 /* SpinningGradientBG.swift */; };
+		B92CC70729B0452600B04945 /* drop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B92CC70629B0452600B04945 /* drop.mp4 */; };
+		B92CC70929B046E300B04945 /* JournalEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92CC70829B046E300B04945 /* JournalEdit.swift */; };
 		B96F5FE42975F18C00715F5D /* EarnTheRightJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F5FE32975F18C00715F5D /* EarnTheRightJournalApp.swift */; };
 		B96F5FE62975F18C00715F5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F5FE52975F18C00715F5D /* ContentView.swift */; };
-		B96F5FEB2975F18C00715F5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96F5FEA2975F18C00715F5D /* Preview Assets.xcassets */; };
 		B96F603329770FCF00715F5D /* calloutData.json in Resources */ = {isa = PBXBuildFile; fileRef = B96F603229770FCF00715F5D /* calloutData.json */; };
 		B96F6035297731E300715F5D /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F6034297731E300715F5D /* Chapter.swift */; };
 		B96F60372977331300715F5D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F60362977331300715F5D /* ModelData.swift */; };
@@ -19,7 +28,6 @@
 		B96F604029773F2100715F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96F603E29773F2100715F5D /* Assets.xcassets */; };
 		B96F604529775B5C00715F5D /* ChapterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F604429775B5C00715F5D /* ChapterRow.swift */; };
 		B96F604729775D1700715F5D /* ChapterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F604629775D1700715F5D /* ChapterList.swift */; };
-		B96F60492977694B00715F5D /* ChapterJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F60482977694B00715F5D /* ChapterJournal.swift */; };
 		B96F60552978F60C00715F5D /* ChapterDetail-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F60542978F60C00715F5D /* ChapterDetail-ViewModel.swift */; };
 		B96F605B2979067800715F5D /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F605A2979067800715F5D /* FileManager-DocumentsDirectory.swift */; };
 		B9800E292979B67200CC3184 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9800E282979B67200CC3184 /* JournalEntry.swift */; };
@@ -28,10 +36,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B92BBA8A29ADB9690034C833 /* callOutData2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = callOutData2.json; sourceTree = "<group>"; };
+		B92BBA8C29ADB98D0034C833 /* CalloutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutModel.swift; sourceTree = "<group>"; };
+		B92CC6F829B0350D00B04945 /* LoopingPlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingPlayerUIView.swift; sourceTree = "<group>"; };
+		B92CC6FA29B03CF700B04945 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		B92CC6FC29B03D1E00B04945 /* BgdFullScreenVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgdFullScreenVideoView.swift; sourceTree = "<group>"; };
+		B92CC70029B03DBC00B04945 /* backgroundLoop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = backgroundLoop.mp4; sourceTree = "<group>"; };
+		B92CC70229B03E1200B04945 /* OpeningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScreen.swift; sourceTree = "<group>"; };
+		B92CC70429B0416A00B04945 /* SpinningGradientBG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningGradientBG.swift; sourceTree = "<group>"; };
+		B92CC70629B0452600B04945 /* drop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = drop.mp4; sourceTree = "<group>"; };
+		B92CC70829B046E300B04945 /* JournalEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEdit.swift; sourceTree = "<group>"; };
 		B96F5FE02975F18C00715F5D /* EarnTheRightJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarnTheRightJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96F5FE32975F18C00715F5D /* EarnTheRightJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnTheRightJournalApp.swift; sourceTree = "<group>"; };
 		B96F5FE52975F18C00715F5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B96F5FEA2975F18C00715F5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B96F603229770FCF00715F5D /* calloutData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = calloutData.json; sourceTree = "<group>"; };
 		B96F6034297731E300715F5D /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		B96F60362977331300715F5D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -41,12 +58,12 @@
 		B96F603E29773F2100715F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96F604429775B5C00715F5D /* ChapterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterRow.swift; sourceTree = "<group>"; };
 		B96F604629775D1700715F5D /* ChapterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterList.swift; sourceTree = "<group>"; };
-		B96F60482977694B00715F5D /* ChapterJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterJournal.swift; sourceTree = "<group>"; };
 		B96F60542978F60C00715F5D /* ChapterDetail-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChapterDetail-ViewModel.swift"; sourceTree = "<group>"; };
 		B96F605A2979067800715F5D /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		B9800E282979B67200CC3184 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 		B9800E2C2979C2ED00CC3184 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		B9800E2E2979C7D700CC3184 /* LoadingWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingWheel.swift; sourceTree = "<group>"; };
+		B9927CB4298DDCC100235030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B92CC6F729B034A500B04945 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B92CC6FE29B03D6300B04945 /* Movies */,
+				B92CC6F829B0350D00B04945 /* LoopingPlayerUIView.swift */,
+				B92CC6FA29B03CF700B04945 /* PlayerView.swift */,
+				B92CC6FC29B03D1E00B04945 /* BgdFullScreenVideoView.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		B92CC6FE29B03D6300B04945 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				B92CC70629B0452600B04945 /* drop.mp4 */,
+				B92CC70029B03DBC00B04945 /* backgroundLoop.mp4 */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
 		B96F5FD72975F18C00715F5D = {
 			isa = PBXGroup;
 			children = (
 				B96F603D29773F2100715F5D /* AppIcon.appiconset */,
 				B96F603E29773F2100715F5D /* Assets.xcassets */,
-				B96F5FEA2975F18C00715F5D /* Preview Assets.xcassets */,
 				B96F5FE22975F18C00715F5D /* EarnTheRightJournal */,
 				B96F5FE12975F18C00715F5D /* Products */,
 			);
@@ -82,6 +118,7 @@
 		B96F5FE22975F18C00715F5D /* EarnTheRightJournal */ = {
 			isa = PBXGroup;
 			children = (
+				B9927CB4298DDCC100235030 /* Info.plist */,
 				B96F603129770F9B00715F5D /* Resources */,
 				B96F5FE32975F18C00715F5D /* EarnTheRightJournalApp.swift */,
 				B96F603029770F8100715F5D /* Models */,
@@ -115,6 +152,7 @@
 				B96F60362977331300715F5D /* ModelData.swift */,
 				B96F605A2979067800715F5D /* FileManager-DocumentsDirectory.swift */,
 				B9800E282979B67200CC3184 /* JournalEntry.swift */,
+				B92BBA8C29ADB98D0034C833 /* CalloutModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -123,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				B96F603229770FCF00715F5D /* calloutData.json */,
+				B92BBA8A29ADB9690034C833 /* callOutData2.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -130,9 +169,12 @@
 		B96F603A29773E7000715F5D /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				B92CC6F729B034A500B04945 /* VideoPlayer */,
 				B96F603B29773E7F00715F5D /* Drop.swift */,
 				B9800E2C2979C2ED00CC3184 /* Welcome.swift */,
 				B9800E2E2979C7D700CC3184 /* LoadingWheel.swift */,
+				B92CC70229B03E1200B04945 /* OpeningScreen.swift */,
+				B92CC70429B0416A00B04945 /* SpinningGradientBG.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -144,7 +186,7 @@
 				B96F60542978F60C00715F5D /* ChapterDetail-ViewModel.swift */,
 				B96F604429775B5C00715F5D /* ChapterRow.swift */,
 				B96F604629775D1700715F5D /* ChapterList.swift */,
-				B96F60482977694B00715F5D /* ChapterJournal.swift */,
+				B92CC70829B046E300B04945 /* JournalEdit.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -209,8 +251,10 @@
 			files = (
 				B96F603329770FCF00715F5D /* calloutData.json in Resources */,
 				B96F603F29773F2100715F5D /* AppIcon.appiconset in Resources */,
+				B92BBA8B29ADB9690034C833 /* callOutData2.json in Resources */,
+				B92CC70129B03DBC00B04945 /* backgroundLoop.mp4 in Resources */,
+				B92CC70729B0452600B04945 /* drop.mp4 in Resources */,
 				B96F604029773F2100715F5D /* Assets.xcassets in Resources */,
-				B96F5FEB2975F18C00715F5D /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,18 +265,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92CC6FD29B03D1E00B04945 /* BgdFullScreenVideoView.swift in Sources */,
 				B96F6035297731E300715F5D /* Chapter.swift in Sources */,
 				B96F60552978F60C00715F5D /* ChapterDetail-ViewModel.swift in Sources */,
+				B92CC6F929B0350D00B04945 /* LoopingPlayerUIView.swift in Sources */,
 				B9800E2F2979C7D700CC3184 /* LoadingWheel.swift in Sources */,
-				B96F60492977694B00715F5D /* ChapterJournal.swift in Sources */,
+				B92CC6FB29B03CF700B04945 /* PlayerView.swift in Sources */,
+				B92BBA8D29ADB98D0034C833 /* CalloutModel.swift in Sources */,
 				B96F60372977331300715F5D /* ModelData.swift in Sources */,
+				B92CC70529B0416A00B04945 /* SpinningGradientBG.swift in Sources */,
 				B96F604529775B5C00715F5D /* ChapterRow.swift in Sources */,
 				B96F603C29773E7F00715F5D /* Drop.swift in Sources */,
 				B9800E2D2979C2ED00CC3184 /* Welcome.swift in Sources */,
 				B9800E292979B67200CC3184 /* JournalEntry.swift in Sources */,
 				B96F605B2979067800715F5D /* FileManager-DocumentsDirectory.swift in Sources */,
 				B96F604729775D1700715F5D /* ChapterList.swift in Sources */,
+				B92CC70329B03E1200B04945 /* OpeningScreen.swift in Sources */,
 				B96F5FE62975F18C00715F5D /* ContentView.swift in Sources */,
+				B92CC70929B046E300B04945 /* JournalEdit.swift in Sources */,
 				B96F5FE42975F18C00715F5D /* EarnTheRightJournalApp.swift in Sources */,
 				B96F6039297738F300715F5D /* ChapterDetail.swift in Sources */,
 			);
@@ -366,17 +416,20 @@
 				DEVELOPMENT_TEAM = 6Q4H9WDGQ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarnTheRightJournal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EtR Journal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = info.earntheright.EarnTheRightJournal;
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.austonyoungblood.EarnTheRightJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -398,17 +451,20 @@
 				DEVELOPMENT_TEAM = 6Q4H9WDGQ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarnTheRightJournal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EtR Journal";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = info.earntheright.EarnTheRightJournal;
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.austonyoungblood.EarnTheRightJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

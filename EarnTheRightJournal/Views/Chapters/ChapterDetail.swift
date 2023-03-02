@@ -11,8 +11,9 @@ struct ChapterDetail: View {
     
     @EnvironmentObject var modelData: ModelData
     var chapter: Chapter
-    
     @StateObject private var viewModel = ViewModel()
+    @FocusState private var journalIsFocused: Bool
+    private let localVideoName = "drop"
     
     var chapterIndex: Int {
         modelData.chapters.firstIndex(where: { $0.id == chapter.id})!
@@ -22,51 +23,44 @@ struct ChapterDetail: View {
     var body: some View {
         
         NavigationView {
-            ScrollView {
-                VStack() {
-                    Drop()
-                    
-                    Text("Chapter \(chapter.id)")
-                        .font(.largeTitle)
-                        .padding()
-                    Text(chapter.header.uppercased())
-                        .font(.title3)
-                        .padding()
-                    
-                    VStack(alignment: .leading, spacing: 12){
-                        Text("Callouts:")
-                            .font(.title2)
-                        
+            VStack() {
+                
+                Form {
+                    Section {
                         ForEach(chapter.callouts, id: \.self) { callout in
-                            Text("• \(callout)")
+                            Text("- \(callout)")
                         }
+                    } header: {
+                        Text("Callouts")
+                            .font(.title)
+                            .fontWeight(.black)
                     }
-                    .padding()
                     
+                    Section {
+                        TextEditor(text: $viewModel.journalEntries[chapterIndex].entry)
+                            .focused($journalIsFocused)
+                        Text(viewModel.journalEntries[chapterIndex].entry)
+                    } header: {
+                        Text("Journal")
+                    }
                 }
+                .scrollContentBackground(.hidden)
+                .navigationTitle(chapter.header)
                 .toolbar {
-                    ToolbarItem(placement: .bottomBar) {
-                        Button {
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Save") {
                             viewModel.save()
-                            let _ = print("save button was tapped")
-                        } label: {
-                            Text("Save")
+                            journalIsFocused = false
                         }
-                        
                     }
                 }
-                
-                VStack (alignment: .leading) {
-                    Text("Journal:")
-                        .font(.title3)
-                    TextField("Enter your journal here", text: $viewModel.journalEntries[chapterIndex].entry)
-                    
-                }
-                .padding()
-                
             }
+            .background(
+                BgdFullScreenVideoView(videoName: localVideoName)
+                    .overlay(Color.black.opacity(0.2))
+            )
         }
-        
     }
 }
 
