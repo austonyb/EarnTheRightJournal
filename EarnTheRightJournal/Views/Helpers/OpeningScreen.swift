@@ -42,6 +42,7 @@ struct OpeningScreen: View {
                 }
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
     
     private func makeNavigationLink() -> some View {

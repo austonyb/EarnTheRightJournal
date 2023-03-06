@@ -14,15 +14,42 @@ struct ChapterList: View {
         NavigationView() {
             NavigationStack {
                 List {
-                    ForEach(chapters) { chapter in
+                    Section {
                         NavigationLink {
-                            ChapterDetail(chapter: chapter)
+                            About()
                         } label: {
-                            ChapterRow(chapter: chapter)
+                            Text("About")
                         }
-                        
                     }
-                    .navigationTitle("Chapters")
+                    
+                    Section {
+                        ForEach(chapters) { chapter in
+                            NavigationLink {
+                                ChapterDetail(chapter: chapter)
+                            } label: {
+                                ChapterRow(chapter: chapter)
+                            }
+                            
+                        }
+                        .navigationTitle("Earn the Right")
+                    } header: {
+                        Text("Chapters")
+                            .font(.headline)
+                            .foregroundColor(.black)
+                    }
+                    
+                    Section {
+                        NavigationLink {
+                            // destination view to navigation to
+                            OpeningScreen()
+                        } label: {
+                            Text("Go Back to Opening Screen")
+                        }
+                    } header: {
+                        Text("Settings and Extras")
+                            .font(.headline)
+                            .foregroundColor(.black)
+                    }
                 }
             }
         }
